@@ -64,7 +64,8 @@ vim.o.inccommand = 'split'
 vim.o.cursorline = true
 
 -- make cursor a block
-vim.opt.guicursor = 'n:block'
+-- vim.opt.guicursor = 'i:block-blinkon300-blinkoff300-TermCursor'
+vim.opt.guicursor = 'i:block-blinkon300-blinkoff300,r:hor20-blinkon300-blinkoff300'
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.o.scrolloff = 10
